@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #d5ffff;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 450px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.ieee-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.bootcamp-title {
+  margin: 10px 0;
+  font-size: 1.4rem;
+  color: #00629B;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #00629B;
+}
+
+.form-heading {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00629B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004f7a;
+}

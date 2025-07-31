@@ -27,6 +27,25 @@
 .App-link {
   color: #61dafb;
 }
+/* App.css */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  background-color: #00629B;
+}
+
+.top-nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
 
 @keyframes App-logo-spin {
   from {
